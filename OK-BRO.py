@@ -124,7 +124,7 @@ def jalan(z):
         time.sleep(0.01)
 
   
-logo=(""" \x1b[38;5;83mJOIN TELEGRAM T.me/JIBON
+logo=(""" \x1b[38;5;83mJOIN TELEGRAM T.me/Mrx Jibon
 \x1b[38;5;78m███    ███ ██████     ██████  ██████   ██████  
 \x1b[38;5;83m████  ████ ██   ██    ██   ██ ██   ██ ██    ██ 
 \x1b[38;5;84m██ ████ ██ ██████     ██████  ██████  ██    ██ 
@@ -162,9 +162,9 @@ def Main():
 	os.system('clear')
 	print(logo)
 	print("[\033[1;37m01\33[1;92m][\033[1;93mA\33[1;92m] START RANDOM CLONING")
-	print("[\033[1;37m02\33[1;92m][\033[1;93mB\33[1;92m] FOLLOW MY FB PAGE")
-	print("[\033[1;37m03\33[1;92m][\033[1;93mC\33[1;92m] FOLLOW MY FB PROFILE")
-	print("[\033[1;37m04\33[1;92m][\033[1;93mD\33[1;92m] JOIN MESSENGER GROUP")
+	#print("[\033[1;37m02\33[1;92m][\033[1;93mB\33[1;92m] FOLLOW MY FB PAGE")
+	#print("[\033[1;37m03\33[1;92m][\033[1;93mC\33[1;92m] FOLLOW MY FB PROFILE")
+	#print("[\033[1;37m04\33[1;92m][\033[1;93mD\33[1;92m] JOIN MESSENGER GROUP")
 	print('[\033[1;37m00\33[1;92m][\033[1;93mE\33[1;92m] EXIT PROGRAMMING')
 	print(54*'━')
 	opt = input('Choose option >>> ')
@@ -189,10 +189,10 @@ def admin():
 	print(logo)
 	print(50*'_')
 	print(' [1] Contract WhatsApp ')
-	print(' [2] FOLLOW MY FB PAGE ')
-	print(' [3] Subscribe Youtube')
+	#print(' [2] FOLLOW MY FB PAGE ')
+	#print(' [3] Subscribe Youtube')
 	print(' [0] Back to Main menu')
-	bal = input('Choose option >>> ')
+	bal = input('Choose option ➤ ')
 	if bal =='1':
 		os.system('xdg-open t.me/mueorb');time.sleep(1)
 		admin()
@@ -209,11 +209,11 @@ def virusA():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print(" ┏━[•] BD SIM CODE 017 015 018 019 013 015 016]")
-	kode = input(' ┗━[+] SELECT : ')
-	doamin = ' BD Number id cloner [ONLY-OK] '
-	print(' ┏━[•] EXAMPLE : 1000,5000,10000,15000,20000] ')
-	limit = int(input(' ┗━[+] LIMIT : '))
+	print(" 〘✧〙BD SIM CODE 017 015 018 019 013 015 016]")
+	kode = input(' 〘✧〙SELECT : ')
+	doamin = ' 〘✧〙BD Number id cloner [ONLY-OK] '
+	print(' 〘✧〙EXAMPLE : 1000,5000,10000,15000,20000] ')
+	limit = int(input(' 〘✧〙LIMIT : '))
 	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
 		kodb = ''.join(random.choice(string.digits) for _ in range(2))
