@@ -124,7 +124,7 @@ def jalan(z):
         time.sleep(0.01)
 
   
-logo=(""" \x1b[38;5;83mJOIN TELEGRAM T.me/Mrx Jibon
+logo=(""" 
 \x1b[38;5;78m███    ███ ██████     ██████  ██████   ██████  
 \x1b[38;5;83m████  ████ ██   ██    ██   ██ ██   ██ ██    ██ 
 \x1b[38;5;84m██ ████ ██ ██████     ██████  ██████  ██    ██ 
@@ -133,7 +133,7 @@ logo=(""" \x1b[38;5;83mJOIN TELEGRAM T.me/Mrx Jibon
 \x1b[38;5;77m──────────────────────────────────────────────                 
 \x1b[38;5;83m〘✧〙DEVLOPER  \x1b[38;5;222m➤  \x1b[38;5;78m JIBON
 \x1b[38;5;79m〘✧〙FACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;79m JIBON
-\x1b[38;5;115m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;115m+88018
+\x1b[38;5;115m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;115m+88018 ?
 \x1b[38;5;78m〘✧〙TOOLS     \x1b[38;5;222m➤   \x1b[38;5;78mRANDOM CLONE    \x1b[38;5;197m(FREE)
 \x1b[38;5;77m──────────────────────────────────────────────""")
 def cek_apk(session,coki):
@@ -167,7 +167,7 @@ def Main():
 	#print("[\033[1;37m04\33[1;92m][\033[1;93mD\33[1;92m] JOIN MESSENGER GROUP")
 	print('[\033[1;37m00\33[1;92m][\033[1;93mE\33[1;92m] EXIT PROGRAMMING')
 	print(54*'━')
-	opt = input('Choose option >>> ')
+	opt = input('Choose option ➤ ')
 	if opt in ["A","1"]:
 		virusA()
 	if opt in ["B","2"]:
@@ -209,11 +209,11 @@ def virusA():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print(" 〘✧〙BD SIM CODE 017 015 018 019 013 015 016]")
-	kode = input(' 〘✧〙SELECT : ')
+	print("〘✧〙BD SIM CODE 017 015 018 019 013 015 016]")
+	kode = input('〘✧〙SELECT : ')
 	doamin = ' 〘✧〙BD Number id cloner [ONLY-OK] '
-	print(' 〘✧〙EXAMPLE : 1000,5000,10000,15000,20000] ')
-	limit = int(input(' 〘✧〙LIMIT : '))
+	print('〘✧〙EXAMPLE : 1000,5000,10000,15000,20000] ')
+	limit = int(input('〘✧〙LIMIT : '))
 	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
 		kodb = ''.join(random.choice(string.digits) for _ in range(2))
@@ -223,10 +223,10 @@ def virusA():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('┏━[•] COUNTRY    : Bangladesh')
-		print('┣━[•] TOTAL ID   :  '+tl)
-		print(f'┣━[•] SIM CODE   : \033[1;92m {kode} ')
-		print('┗━[•] START BD UID MIXT CRACKING... ')
+		print('〘✧〙COUNTRY    : Bangladesh')
+		print('〘✧〙TOTAL ID   :  '+tl)
+		print(f'〘✧〙SIM CODE   : \033[1;92m {kode} ')
+		print('〘✧〙START BD UID MIXT CRACKING... ')
 		print(50*'━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
