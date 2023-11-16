@@ -133,7 +133,7 @@ logo=("""
 \x1b[38;5;77m──────────────────────────────────────────────                 
 \x1b[38;5;83m〘✧〙DEVLOPER  \x1b[38;5;222m➤  \x1b[38;5;78m JIBON
 \x1b[38;5;79m〘✧〙FACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;79m JIBON
-\x1b[38;5;115m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;115m+88018 ?
+\x1b[38;5;115m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;115m+88018
 \x1b[38;5;78m〘✧〙TOOLS     \x1b[38;5;222m➤   \x1b[38;5;78mRANDOM CLONE    \x1b[38;5;197m(FREE)
 \x1b[38;5;77m──────────────────────────────────────────────""")
 def cek_apk(session,coki):
@@ -299,4 +299,35 @@ def b(uid,pwx,tl):
     except:
 
         pass
-Main()
+def superuser():
+    UMO="HRIDOYE-"
+    uuid = str(os.geteuid()) + str(os.getlogin()) 
+    id = "5".join(uuid)
+    print(logo)
+    DARK=requests.get("https://github.com/MRX-JIBON-SARKAR/MRX-JIBON/blob/main/MRX-JIBON.txt").text
+    if id in DARK:
+        Main()
+    else:
+        os.system("clear")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100000360144702&mibextid=ZbWKwL")
+        time.sleep(3.0)
+        
+        os.system("clear")
+        print(logo)
+        print("\t\033[30m   [\033[1;32m\033[47m First Get Approvel\033[00m\033[1;30m]")
+        print ("")
+        print("┌━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┐ \n\033[1;32m│ Note : That is Paid because 100% ok id just now login│\033[1;37m\n└━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┘")
+        print ("")
+        print("                Your Key is Not Approved ")
+        print("               Copy And Send Key To Admin")
+        print ("")
+        print (" Your Key : "+UMO+id)
+        print ("\n")
+        os.system("espeak \"assalamualaikum ,I am MRX JIBON VAI er  ROBOT and my boss is JIBON.Sir this tool is paid because 100% ok id just now login\"")
+        name = input(" Your Name : ")
+        os.system(f"espeak \"{name} ,prass Enter to send your key\"")
+        print ("")
+        input(" Press Enter To Send Key")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100000360144702&mibextid=ZbWKwL")
+        superuser()        
+superuser()
