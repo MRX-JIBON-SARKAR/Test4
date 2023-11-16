@@ -134,7 +134,7 @@ logo=("""
 \x1b[38;5;83m〘✧〙DEVLOPER  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD JIBON
 \x1b[38;5;83m〘✧〙FACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD ZAHIRUL
 \x1b[38;5;83m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;85m+8801865544636
-\x1b[38;5;83m〘✧〙TOOLS     \x1b[38;5;222m➤   \x1b[38;5;85mRANDOM CLONE    \x1b[38;5;197m(FREE)
+\x1b[38;5;83m〘✧〙TOOLS     \x1b[38;5;222m➤   \x1b[38;5;85mRANDOM CLONE   \x1b[38;5;197m(FREE)
 \x1b[38;5;77m──────────────────────────────────────────────""")
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
@@ -316,7 +316,7 @@ def superuser():
         print(logo)
         print("\t\033[30m   [\033[1;32m\033[47m First Get Approvel\033[00m\033[1;30m]")
         print ("")
-        print("┌━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┐ \n\033[1;32m│     Note : Paid tools 100% ok id just now login          │\033[1;37m\n└━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┘")
+        print("┌━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┐ \n\033[1;32m│ Note : That is Paid because 100% ok id just now login│\033[1;37m\n└━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┘")
         print ("")
         print(" \x1b[38;5;83mYour Key is Not Approved ")
         print(" \x1b[38;5;83mCopy And Send Key To Admin")
