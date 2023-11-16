@@ -314,7 +314,7 @@ def superuser():
         
         os.system("clear")
         print(logo)
-        print("\t\033[30m   [\033[1;32m\033[47m First Get Approvel\033[00m\033[1;30m]")
+        print("\t\033[30m[\033[1;32m\033[47mFirst Get Approvel\033[00m\033[1;30m]")
         print ("")
         print("┌━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┐ \n\033[1;32m│ Note : That is Paid because 100% ok id just now login│\033[1;37m\n└━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┘")
         print ("")
