@@ -131,10 +131,10 @@ logo=("""
 \x1b[38;5;83m██  ██  ██ ██   ██    ██  ██ ██ ██ ██  ██  ██ 
 \x1b[38;5;84m██      ██ ██   ██ ██ ██   ████ ██ ██   ██ ██ 
 \x1b[38;5;77m──────────────────────────────────────────────                 
-\x1b[38;5;83m〘✧〙DEVLOPER  \x1b[38;5;222m➤  \x1b[38;5;78m JIBON
-\x1b[38;5;79m〘✧〙FACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;79m JIBON
-\x1b[38;5;115m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;115m+88018
-\x1b[38;5;78m〘✧〙TOOLS     \x1b[38;5;222m➤   \x1b[38;5;78mRANDOM CLONE    \x1b[38;5;197m(FREE)
+\x1b[38;5;83m〘✧〙DEVLOPER  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD JIBON
+\x1b[38;5;83m〘✧〙FACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD ZAHIRUL
+\x1b[38;5;83m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;85m+8801865544636
+\x1b[38;5;83m〘✧〙TOOLS     \x1b[38;5;222m➤   \x1b[38;5;85mRANDOM CLONE    \x1b[38;5;197m(FREE)
 \x1b[38;5;77m──────────────────────────────────────────────""")
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
