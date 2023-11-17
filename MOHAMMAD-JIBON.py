@@ -29,7 +29,7 @@ except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
     os.system('pip install bs4')
 import requests,bs4,json,os,sys,random,datetime,time,re
-import urllib3,rich,base64
+#import urllib3,rich,base64
 import requests,zlib,platform
 from rich.table import Table as me
 from rich.console import Console as sol
@@ -61,7 +61,7 @@ M = '\x1b[1;91m'
 H = '\x1b[1;92m'
 K = '\x1b[1;93m'
 B = '\x1b[1;94m'
-#U = '\x1b[1;95m' 
+U = '\x1b[1;95m' 
 O = '\x1b[1;96m'
 N = '\x1b[0m'    
 Z = "\033[1;30m"
