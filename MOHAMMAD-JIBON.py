@@ -1,4 +1,4 @@
-# Decompile by Mardis (Tools By Kapten-Kaizo)
+# Decompile by Mardis (Tools By Kapten-Jibon)
 # Time Succes decompile : 2023-02-25 22:37:39.359505
 import os
 import sys
@@ -156,7 +156,7 @@ try:
 	open('.prox.txt','w').write(prox)
 	#os.system('git clone https://github.com/Hannan-404/FILE')
 except Exception as e:
-	print('[[\x1b[1;92mâ€¢\x1b[1;97m] [\x1b[1;96mKAVI')
+	print('[[\x1b[1;92mâ€¢\x1b[1;97m] [\x1b[1;96mJIBON')
 prox=open('.prox.txt','r').read().splitlines()
 
 def uid(nam):
@@ -341,15 +341,15 @@ def menu():
 	print ("\033[1;97m[3]\033[1;33m MY Facebook ID")
 	ot = input('\n   \x1b[1;32m Choose option >>> ')
 	if ot == '1':
-		os.system('xdg-open https://youtu.be/MfchhZ0mmFk')
+		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
 		crack_file()
 		
 	if ot == '2':
-		os.system('xdg-open https://youtu.be/Y1PT0WMpXv8')
+		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
 		rndm()
 		
 	if ot == '3':
-		os.system('xdg-open https://facebook.com/100074591152479')
+		os.system('xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL')
 		menu()
 		
 	else:
@@ -364,16 +364,16 @@ def menu1():
 	clear()
 	print ("\033[1;97m     [1]\033[1;33m FILE CLONING")
 	print ("\033[1;97m     [2]\033[1;33m BANGLADESH NUMBER")
-	print ("\033[1;97m     [3]\033[1;33m MY YOUTUBE CHANEL")
+	print ("\033[1;97m     [3]\033[1;33m FB GROUP")
 	ot = input('\n   \x1b[1;32m Choose option >>> ')
 	if ot == '1':
-		os.system('xdg-open https://youtu.be/MfchhZ0mmFk')
+		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
 		crack_file()
 	if ot == '2':
-		os.system('xdg-open https://youtu.be/Y1PT0WMpXv8')
+		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
 		rndm()
 	if ot == '3':
-		os.system('xdg-open https://youtube.com/@timmedley101')
+		os.system('xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL')
 
 	else:
 		menu()
@@ -385,8 +385,8 @@ def rndm():
 	print(gyc)
 	print ("""+------------------------------+
 |        Example>:             |
-|        0191,0172,0183,       |
-|        92302,92301,91778     |
+|        0191 ✧ 0172 ✧ 0183,       |
+|        92302 ✧ 92301 ✧ 91778     |
 +------------------------------+
 """)
 	cod = input('\n INPUT YOUR SIM CODE: ')
